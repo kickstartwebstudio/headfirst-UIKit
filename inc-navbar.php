@@ -6,9 +6,7 @@
             </div>
             <div class="uk-navbar-right">
                 <ul class="uk-navbar-nav uk-visible@s">
-                    <li class="uk-active"><a href="#">Home</a></li>
-                    <li><a href="index-article.php">Article</a></li>
-                    <li><a href="#">Item</a></li>
+                    <?php include 'inc-navbar-menu.php';?>
                 </ul>
               <a class="uk-navbar-toggle uk-navbar-item uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav"></a>
             </div>
