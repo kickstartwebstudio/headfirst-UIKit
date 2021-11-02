@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Headfirst</title>
-<meta name="description" content="Starter kit to develop with UIKit CSS Framework. Please modify to suit your needs">
-<link rel="icon" href="assets/img/favicon.ico">
-
-<!-- OG -->
-<meta property="og:title" content="Headfirst" />
-<meta property="og:description" content="Starter kit to develop with UIKit CSS Framework. Please modify to suit your needs" />
-<meta property="og:type" content="website" />
-<meta property="og:image" content="" />
-<meta property="og:image:secure_url" content="" />
-
-<!-- STYLES -->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/uikit@latest/dist/css/uikit.min.css">
-<link rel="stylesheet" type="text/css" href="style.css">
-
-</head>
-<body>
+<?php include 'inc-header.php';?>
 	    
 
 <div class="" uk-sticky="top: 300; animation: uk-animation-slide-top">
@@ -78,37 +54,13 @@
     </div>
 </section>
 
-<section class="uk-section">
-    <div class="uk-container uk-container-xsmall">
-        <h1>Section Two</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci cupiditate praesentium fuga, sequi officiis consequuntur eaque vitae illo repellat doloribus qui est enim, magni placeat sit numquam perspiciatis harum consequatur accusamus nobis ducimus eligendi voluptatem. Esse doloremque vel, explicabo sequi iusto at nam nihil eius voluptates molestias iste aliquid. Alias!</p>
-        <h2>heading again</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati natus ipsa, dolores? Dolorem tempora, minus. Provident consequatur, repellendus recusandae assumenda sit dicta veniam, perferendis labore ratione distinctio eum aliquam, sapiente vel sequi eligendi quidem? Sint rerum mollitia cupiditate suscipit aliquid aut possimus tempore! Repellat a veniam omnis dolore ut ab ipsam nulla recusandae pariatur at. Nobis tempore fugit quidem explicabo consequuntur, laudantium rem a sequi quae quisquam, vero odit porro veniam adipisci beatae totam inventore cum placeat optio blanditiis quasi! Ut neque veniam harum, nihil assumenda! Minima ea alias numquam eveniet praesentium animi cumque, ratione iste, commodi unde iure, eum. Magni autem incidunt eaque error natus quasi minima repudiandae earum adipisci voluptates labore enim deserunt cumque esse perspiciatis veniam, quos accusamus, cupiditate, consectetur illum quam molestiae. Asperiores, excepturi placeat culpa, eos maxime cum veniam provident qui quasi mollitia quis autem possimus praesentium aut, iusto amet laboriosam sunt quisquam tempore! Est omnis vitae doloremque numquam quae, soluta vero eligendi commodi accusamus quo iusto explicabo consectetur? Consequuntur ullam, explicabo cumque. Ipsam in at excepturi facere reiciendis, facilis quas dolores possimus sint saepe. Cum quia nostrum, cumque laborum perferendis doloribus sint fuga iure aliquid esse libero tempore, vero at error? Debitis ab, iure.</p>
-    </div>
-</section>	
+<iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    width="1200"
+    height="200"
+    src="https://www.marinetraffic.com/en/ais/details/ships/shipid:704032/">
+</iframe>
+    
 
 		
-<!-- OFFCANVAS -->
-<div id="offcanvas-nav" data-uk-offcanvas="flip: true; overlay: false">
-    <div class="uk-offcanvas-bar uk-offcanvas-bar-animation uk-offcanvas-slide">
-        <button class="uk-offcanvas-close uk-close uk-icon" type="button" data-uk-close></button>
-        <ul class="uk-nav uk-nav-default">
-            <li class="uk-active"><a href="#">Active</a></li>
-            <li class="uk-parent">
-                <a href="#">Link</a>
-                <ul class="uk-nav-sub">
-                    <li><a href="#">Sub Link</a></li>
-                    <li><a href="#">Sub Link</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-</div>
-<!-- /OFFCANVAS -->
-
-
-<!-- SCRIPTS -->
-<script src="https://cdn.jsdelivr.net/npm/uikit@latest/dist/js/uikit.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@latest/dist/js/uikit-icons.min.js"></script>
-</body>
-</html>
+<?php include 'inc-footer.php';?>
