@@ -18,7 +18,7 @@
 <meta property="og:image:secure_url" content="" />
 
 <!-- STYLES -->
-<!--<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/uikit@latest/dist/css/uikit.min.css">-->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/uikit@latest/dist/css/uikit.min.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>

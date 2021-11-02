@@ -1,5 +1,108 @@
-@import "scss/uikit.min";
-@import "scss/fixing";
-@import "scss/linksbutton";
-@import "scss/embeds";
-@import "scss/mediaqueries";
+/* FIXING FONT RENDERING */
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+
+/* GLOBAL COLORS */
+$primary: #1e87f0;
+$primary-darker: #0f6ecd;
+.rz-bg-white {
+    background-color: #FFFFFF;
+}
+
+
+
+/* LINKS & BUTTON */
+a,
+.uk-link {
+  color: $primary;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover,
+.uk-link:hover,
+.uk-link-toggle:hover .uk-link,
+.uk-link-toggle:focus .uk-link {
+  color: $primary-darker;
+  text-decoration: underline;
+}
+.uk-button-default {
+}
+.uk-button-default:hover,
+.uk-button-default:focus {
+}
+
+.uk-button-primary {
+}
+.uk-button-primary:hover,
+.uk-button-primary:focus {
+}
+
+.uk-button-secondary,  {
+}
+.uk-button-secondary:hover,
+.uk-button-secondary:focus {
+}
+
+/* RESPONSIVE EMBEDS */
+.rz-fluid-video {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.rz-fluid-video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.rz-fluid-maps {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.rz-fluid-maps iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+p.rz-display::after {
+    content: "mobile";
+}
+
+// Small devices (landscape phones, 640px and up)
+@media (min-width: 640px) {
+        p.rz-display::after {
+        content: "small";
+    }
+}
+
+// Medium devices (tablets, 960px and up)
+@media (min-width: 960px) {
+        p.rz-display::after {
+        content: "medium";
+    }
+}
+
+// Large devices (desktops, 1200px and up)
+@media (min-width: 1200px) {
+        p.rz-display::after {
+        content: "large";
+    }
+}
+
+// Extra large devices (large desktops, 1600px and up)
+@media (min-width: 1600px) {
+        p.rz-display::after {
+        content: "extra large";
+    }
+}
