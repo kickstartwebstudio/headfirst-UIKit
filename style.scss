@@ -16,17 +16,14 @@ $primary-darker: #0f6ecd;//UIKit default
 
 
 /* HERO */
-.nav {
+.rz-nav {
 	position: absolute;
 	top: 15px;
 	z-index: 99;
 	left: 0;
 	right: 0;
 }
-.uk-sticky-placeholder {
-	height: 0 !important;
-}
-.top-wrap::before, .overlay-wrap::before {
+.rz-top-wrap::before, .overlay-wrap::before {
 	position: absolute;
 	top:0;
 	right:0;
@@ -36,16 +33,12 @@ $primary-darker: #0f6ecd;//UIKit default
 	z-index: 1;
 	background-color: rgba(0,0,0,0.5);
 }
-.top-wrap-height {
+.rz-top-wrap-height {
 	height: 80vh;
 	min-height: 460px;
 	transition: height 0.25s;
 }
-.uk-subnav-pill > * > :first-child {
-    padding: 0.5rem 1rem;
-    background-color: rgba(0, 0, 0, 0.04);
-}
-.top-container {
+.rz-top-container {
 	z-index: 2;
 }
 
