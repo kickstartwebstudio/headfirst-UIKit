@@ -9,10 +9,33 @@ body {
 /* GLOBAL COLORS */
 $primary: #1e87f0;//UIKit default
 $primary-darker: #0f6ecd;//UIKit default
+$label-blue: #D9EBFC;
+$label-blue-text: #0E6ECE;
+$label-green: #D5F6EA;
+$label-green-text: #209268;
+$label-orange: #FEE2CD;
+$label-orange-text: #E96A07;
+$label-red: #FCDEE4;
+$label-red-text: #EC2248;
 .rz-bg-white {
     background-color: #FFFFFF;
 }
-
+.uk-label {
+    background-color: $label-blue;
+    color: $label-blue-text;
+}
+.uk-label-success {
+    background-color: $label-green;
+    color: $label-green-text;
+}
+.uk-label-warning {
+    background-color: $label-orange;
+    color: $label-orange-text;    
+}
+.uk-label-danger {
+    background-color: $label-red;
+    color: $label-red-text;    
+}
 
 
 /* HERO */
