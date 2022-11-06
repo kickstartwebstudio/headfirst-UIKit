@@ -41,7 +41,7 @@ $label-red-text: #EC2248;
 /* HERO */
 .rz-nav {
 	position: absolute;
-	top: 15px;
+	top: 0;
 	z-index: 99;
 	left: 0;
 	right: 0;
@@ -80,6 +80,9 @@ a:hover,
 .uk-link-toggle:focus .uk-link {
   color: $primary-darker;
   text-decoration: underline;
+}
+a.rz-active {
+    box-shadow: 0px -3px 0px red inset;
 }
 .uk-button-default {
 }

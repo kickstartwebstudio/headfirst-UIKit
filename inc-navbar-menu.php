@@ -1,3 +1,3 @@
-                    <li class="uk-active"><a href="index.php">Home</a></li>
-                    <li><a href="index-article.php">Article</a></li>
-                    <li><a href="#">Item</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="page-single.php">Single</a></li>
+                    <li><a href="page-archive.php">Archive</a></li>

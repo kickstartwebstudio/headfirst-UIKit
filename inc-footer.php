@@ -29,6 +29,7 @@
 
 
 <!-- SCRIPTS -->
+<script defer src="app.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@latest/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@latest/dist/js/uikit-icons.min.js"></script>
 </body>
