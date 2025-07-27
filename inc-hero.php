@@ -32,7 +32,7 @@
         </div>
         <!-- /TOP CONTAINER -->
         <!-- TOP IMAGE -->
-        <img src="https://source.unsplash.com/nGsVMkRatgM/1920x1080" alt="" data-uk-cover data-uk-img data-uk-parallax="opacity: 1,0.1; easing:0">
+        <img src="https://images.unsplash.com/photo-1593062096033-9a26b09da705?q=80&w=1920&auto=format&fit=crop" alt="" data-uk-cover data-uk-img data-uk-parallax="opacity: 1,0.1; easing:0">
         <!-- /TOP IMAGE -->
     </div>
     <div class="uk-position-bottom-center uk-position-medium uk-position-z-index uk-text-center">

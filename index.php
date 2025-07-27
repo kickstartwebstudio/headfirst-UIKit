@@ -7,7 +7,7 @@
 		<div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
 			<div>
 				<div class="uk-margin-large">
-					<img src="https://source.unsplash.com/vSchPA-YA_A/1600x900" alt="">
+					<img src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?q=80&w=1600&auto=format&fit=crop" alt="">
 				</div>
 			</div>
 			<div>
@@ -60,7 +60,7 @@
 </section>
    
 <section class="uk-section">
-    <div class="uk-container"><img src="https://source.unsplash.com/RNfrfBDxh1k/1600x900" alt=""></div>
+    <div class="uk-container"><img src="https://images.unsplash.com/photo-1648948494089-4c75c418bc2a?q=80&w=1600&h=500&auto=format&fit=crop" alt=""></div>
 </section>
     
 

@@ -14,7 +14,7 @@
     <div class="uk-container uk-container-small">
         <article uk-grid>
             <div class="uk-width-1-3@s">
-                <img src="https://source.unsplash.com/a3VGxNtXDZo/900x600" alt="">
+                <img src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?q=80&w=900&auto=format&fit=crop" alt="">
             </div>
             <div class="uk-width-2-3@s">
                 <h3><a href="">Gummies pastry cake icing sweet roll</a></h3>
