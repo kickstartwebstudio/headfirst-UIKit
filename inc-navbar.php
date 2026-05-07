@@ -2,7 +2,9 @@
     <div class="uk-container">
         <nav class="" uk-navbar>
             <div class="uk-navbar-left">
-                <div class="uk-text-bold uk-logo">.headfirst</div>
+                <a href="index.php">
+                    <div class="uk-text-bold uk-logo">.headfirst</div>    
+                </a>
             </div>
             <div class="uk-navbar-right">
                 <ul class="uk-navbar-nav uk-visible@s">

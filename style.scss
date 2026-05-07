@@ -82,7 +82,7 @@ a:hover,
   text-decoration: underline;
 }
 a.rz-active {
-    box-shadow: 0px -3px 0px red inset;
+    
 }
 .uk-button-default {
 }
@@ -141,6 +141,8 @@ p.rz-display::after {
     content: "mobile";
 }
 
+
+
 // Small devices (landscape phones, 640px and up)
 @media (min-width: 640px) {
         p.rz-display::after {
@@ -167,4 +169,9 @@ p.rz-display::after {
         p.rz-display::after {
         content: "extra large";
     }
+}
+
+/* Oct 2025 */
+.uk-navbar-left, .uk-navbar-right {
+    align-items: center;
 }

@@ -17,7 +17,7 @@
                 <img src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?q=80&w=900&auto=format&fit=crop" alt="">
             </div>
             <div class="uk-width-2-3@s">
-                <h3><a href="">Gummies pastry cake icing sweet roll</a></h3>
+                <h3><a href="page-single.php">Gummies pastry cake icing sweet roll</a></h3>
                 <p>Gingerbread sweet roll jelly I love ice cream brownie tart sugar plum jelly beans. Dragée I love carrot cake jujubes brownie gummies soufflé. Dessert gummi bears gummi bears chocolate cake sweet I love powder. I love carrot cake gingerbread marzipan chocolate cake sweet roll jujubes tart gummi bears.</p>
             </div>
         </article>

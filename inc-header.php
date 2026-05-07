@@ -20,6 +20,7 @@
 <!-- STYLES -->
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/uikit@latest/dist/css/uikit.min.css">
 <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="style-scroller.css">
 
 </head>
 <body>

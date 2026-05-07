@@ -2,7 +2,7 @@
 
 <?php include 'inc-hero.php';?>
 
-<section class="uk-section">
+<section id="content" class="uk-section">
 	<div class="uk-container uk-margin-large">
 		<div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
 			<div>
@@ -58,6 +58,18 @@
         </div>
     </div>
 </section>
+  
+<div class="scroller" data-speed="fast">
+  <ul class="tag-list scroller__inner">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JS</li>
+    <li>SSG</li>
+    <li>webdev</li>
+    <li>animation</li>
+    <li>UI/UX</li>
+  </ul>
+</div>
    
 <section class="uk-section">
     <div class="uk-container"><img src="https://images.unsplash.com/photo-1648948494089-4c75c418bc2a?q=80&w=1600&h=500&auto=format&fit=crop" alt=""></div>
